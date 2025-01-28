@@ -39,8 +39,6 @@ WebUI.sendKeys(findTestObject('your_site/register_form/input_password'), passwor
 
 WebUI.sendKeys(findTestObject('your_site/register_form/input_password_confirm'), password)
 
-WebUI.click(findTestObject('your_site/register_form/input_check_privacy'))
-
 WebUI.click(findTestObject('your_site/register_form/input_submit'))
 
 WebUI.verifyTextPresent(validate_text, false)

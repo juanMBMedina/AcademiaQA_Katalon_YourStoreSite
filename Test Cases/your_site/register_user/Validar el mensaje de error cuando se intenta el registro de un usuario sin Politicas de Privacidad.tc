@@ -1,108 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Registrar correctamente un nuevo usuarios</description>
-   <name>Validar el funcionamiento correcto cuando se registra un usuario nuevo</name>
-   <tag>YS-1</tag>
+   <description>Ver el mensaje de error cuando se intenta registrar un usuario sin Politicas de Privacidad</description>
+   <name>Validar el mensaje de error cuando se intenta el registro de un usuario sin Politicas de Privacidad</name>
+   <tag>YS-4</tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c8a5d09d-cc0a-46ca-a694-fcc2834deb2b</testCaseGuid>
+   <testCaseGuid>467080e7-cfeb-4f6f-9d79-25f2ffdaadf4</testCaseGuid>
    <testDataLinks>
       <combinationType>ONE</combinationType>
-      <id>819f2f0c-0cd5-42b9-86eb-16dec881c275</id>
+      <id>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</id>
       <iterationEntity>
          <iterationType>ALL</iterationType>
          <value></value>
       </iterationEntity>
-      <testDataId>Data Files/your_site/register_user/register_new_user</testDataId>
+      <testDataId>Data Files/your_site/register_user/register_user_without_politics</testDataId>
    </testDataLinks>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>
       <value></value>
-      <variableId>ce72b7e7-2ae2-469c-b6fa-9cbfb0b1f918</variableId>
+      <variableId>b72338b8-1a58-4638-a09a-5c32fa9361df</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>first_name</value>
-      <variableId>1e678131-907c-462b-955f-e5bcdad7a9dc</variableId>
+      <variableId>9f0f10b4-5a4d-46d0-918b-0b7ea030988a</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>last_name</value>
-      <variableId>90e88fe2-130f-497e-a924-d8ec1e049bd6</variableId>
+      <variableId>16fbd3b5-b3ae-4732-b5a7-3b401f6dd7c3</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>email</value>
-      <variableId>bed9a6ce-4b2d-4d75-977e-4344bb6c8303</variableId>
+      <variableId>6606ec5f-db32-4242-b06d-7ca8ee603727</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>telefone</value>
-      <variableId>1b170e2a-dc88-44af-8a12-dade54abfe46</variableId>
+      <variableId>0b6a7cca-25a6-4175-9b30-fb4501c9e683</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>password</value>
-      <variableId>6c5d21aa-ff7b-4161-8f7e-c325752110cf</variableId>
+      <variableId>20fe06b8-5a98-45bd-a1cc-a3e177018127</variableId>
    </variableLinks>
    <variableLinks>
-      <testDataLinkId>819f2f0c-0cd5-42b9-86eb-16dec881c275</testDataLinkId>
+      <testDataLinkId>9e41a71b-1f9c-4074-a6e0-fff90ef4b66c</testDataLinkId>
       <type>DATA_COLUMN</type>
       <value>expected_text</value>
-      <variableId>c15939a1-26da-4ff5-aa79-d47cba080fe0</variableId>
+      <variableId>db9f0e13-7ac4-4a6b-8aed-f18b7e600746</variableId>
    </variableLinks>
    <variable>
       <defaultValue>'https://opencart.abstracta.us/index.php?route=common/home'</defaultValue>
       <description></description>
-      <id>ce72b7e7-2ae2-469c-b6fa-9cbfb0b1f918</id>
+      <id>b72338b8-1a58-4638-a09a-5c32fa9361df</id>
       <masked>false</masked>
       <name>url</name>
    </variable>
    <variable>
       <defaultValue>'Juan'</defaultValue>
       <description></description>
-      <id>1e678131-907c-462b-955f-e5bcdad7a9dc</id>
+      <id>9f0f10b4-5a4d-46d0-918b-0b7ea030988a</id>
       <masked>false</masked>
       <name>first_name</name>
    </variable>
    <variable>
       <defaultValue>'Blanco'</defaultValue>
       <description></description>
-      <id>90e88fe2-130f-497e-a924-d8ec1e049bd6</id>
+      <id>16fbd3b5-b3ae-4732-b5a7-3b401f6dd7c3</id>
       <masked>false</masked>
       <name>last_name</name>
    </variable>
    <variable>
       <defaultValue>'correo123123@gmail.com'</defaultValue>
       <description></description>
-      <id>bed9a6ce-4b2d-4d75-977e-4344bb6c8303</id>
+      <id>6606ec5f-db32-4242-b06d-7ca8ee603727</id>
       <masked>false</masked>
       <name>email</name>
    </variable>
    <variable>
       <defaultValue>'123456789'</defaultValue>
       <description></description>
-      <id>1b170e2a-dc88-44af-8a12-dade54abfe46</id>
+      <id>0b6a7cca-25a6-4175-9b30-fb4501c9e683</id>
       <masked>false</masked>
       <name>telefone</name>
    </variable>
    <variable>
       <defaultValue>'clave1'</defaultValue>
       <description></description>
-      <id>6c5d21aa-ff7b-4161-8f7e-c325752110cf</id>
+      <id>20fe06b8-5a98-45bd-a1cc-a3e177018127</id>
       <masked>false</masked>
       <name>password</name>
    </variable>
    <variable>
       <defaultValue>'Congratulations! Your new account has been successfully created!'</defaultValue>
       <description></description>
-      <id>c15939a1-26da-4ff5-aa79-d47cba080fe0</id>
+      <id>db9f0e13-7ac4-4a6b-8aed-f18b7e600746</id>
       <masked>false</masked>
       <name>validate_text</name>
    </variable>
