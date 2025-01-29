@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar que el usuario no se puede loguear de forma correcta</description>
+   <name>Validar el funcionamiento del login para un usuario cuando sus datos son incorrectos</name>
+   <tag>YS-6</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>525ca23b-9dd0-4435-a9b5-c42ee0c1a006</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>2ae2b851-3739-49db-9aab-63452ef94cdf</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/your_site/login_user/login_user_with_error_values</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>cdca0984-8bbe-4c44-8f0b-1bfa4f0c4241</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2ae2b851-3739-49db-9aab-63452ef94cdf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>65701ae7-b1fe-46fe-a8f7-f2ac8c0b1ea8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2ae2b851-3739-49db-9aab-63452ef94cdf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>4939d7fc-3c6e-489b-9d19-9c7ee674e44e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>2ae2b851-3739-49db-9aab-63452ef94cdf</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>expected_text</value>
+      <variableId>c2d4e156-c8a3-4395-9d9c-a183e7075e44</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://opencart.abstracta.us/index.php?route=common/home'</defaultValue>
+      <description></description>
+      <id>cdca0984-8bbe-4c44-8f0b-1bfa4f0c4241</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>65701ae7-b1fe-46fe-a8f7-f2ac8c0b1ea8</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>4939d7fc-3c6e-489b-9d19-9c7ee674e44e</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+   <variable>
+      <defaultValue>'No match for E-Mail Address and/or Password.'</defaultValue>
+      <description></description>
+      <id>c2d4e156-c8a3-4395-9d9c-a183e7075e44</id>
+      <masked>false</masked>
+      <name>expected_text</name>
+   </variable>
+</TestCaseEntity>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_login_option</name>
+   <description></description>
+   <name>my_account_title</name>
    <tag></tag>
-   <elementGuidId>82bb1a6f-b144-4054-b8a3-f9605a9f0434</elementGuidId>
+   <elementGuidId>95f6b216-0e85-45bf-8105-b1ba8e59e993</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']/parent::li//a[text()='Login']</value>
+         <value>//h2[text()='My Account'] </value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

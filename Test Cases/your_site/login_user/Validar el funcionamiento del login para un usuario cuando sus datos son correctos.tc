@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar el login correcto del usuario</description>
+   <name>Validar el funcionamiento del login para un usuario cuando sus datos son correctos</name>
+   <tag>YS-5</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>dc6df255-8fcf-4028-bd82-d858f38feec6</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>223238f5-2e51-4189-82c9-77b5f8509c3f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/your_site/login_user/login user with correct values</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>037e7f7f-03a6-4e8d-a92f-fb8d245dd1f4</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>223238f5-2e51-4189-82c9-77b5f8509c3f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>20daf891-6706-4c96-9d4c-552f4d675dbf</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>223238f5-2e51-4189-82c9-77b5f8509c3f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>f6c4c0e6-75d5-4d02-bf0c-48fc55aceb42</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://opencart.abstracta.us/index.php?route=common/home'</defaultValue>
+      <description></description>
+      <id>037e7f7f-03a6-4e8d-a92f-fb8d245dd1f4</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>20daf891-6706-4c96-9d4c-552f4d675dbf</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f6c4c0e6-75d5-4d02-bf0c-48fc55aceb42</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

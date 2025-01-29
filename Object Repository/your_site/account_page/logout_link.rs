@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_login_option</name>
+   <description></description>
+   <name>logout_link</name>
    <tag></tag>
-   <elementGuidId>82bb1a6f-b144-4054-b8a3-f9605a9f0434</elementGuidId>
+   <elementGuidId>aa173b0a-6e47-4992-b6e6-1d0e86189ae1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']/parent::li//a[text()='Login']</value>
+         <value>//aside//a[contains(@href,'logout')]</value>
       </entry>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

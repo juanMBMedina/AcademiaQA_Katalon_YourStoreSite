@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verificar el logout correcto del usuario</description>
+   <name>Validar el funcionamiento del logout para un usuario</name>
+   <tag>YS-8</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c98e3dab-529a-4464-b00f-f5be0c9bb70d</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>223238f5-2e51-4189-82c9-77b5f8509c3f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/your_site/login_user/login user with correct values</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>941f952c-61b0-49a7-af4b-91371ca16614</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>223238f5-2e51-4189-82c9-77b5f8509c3f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>email</value>
+      <variableId>6de8c113-5261-4179-97df-ff201e8327df</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>223238f5-2e51-4189-82c9-77b5f8509c3f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>password</value>
+      <variableId>8766d496-a7e6-4671-8616-f22b971522af</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'https://opencart.abstracta.us/index.php?route=common/home'</defaultValue>
+      <description></description>
+      <id>941f952c-61b0-49a7-af4b-91371ca16614</id>
+      <masked>false</masked>
+      <name>url</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>6de8c113-5261-4179-97df-ff201e8327df</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8766d496-a7e6-4671-8616-f22b971522af</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>
