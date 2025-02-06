@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ver el producto en el carrito de compras</description>
+   <name>Validar carga de producto en el carrito de compras</name>
+   <tag>YS-12</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0ede24bd-efec-43e4-934d-77b20c7cb245</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a81cc8ab-cfb0-4f2c-99f9-f6a4cfa0ae9b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>922f2f1e-77dd-4e6b-afd4-af1f1c8c5b12</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>df9dc83b-9d9d-48eb-8aa7-b54e67d393b0</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>02eb18cd-f28d-4c8c-9f0a-c84af65abe64</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Desktops'</defaultValue>
+      <description></description>
+      <id>a81cc8ab-cfb0-4f2c-99f9-f6a4cfa0ae9b</id>
+      <masked>false</masked>
+      <name>class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mac'</defaultValue>
+      <description></description>
+      <id>922f2f1e-77dd-4e6b-afd4-af1f1c8c5b12</id>
+      <masked>false</masked>
+      <name>sub_class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'iMac'</defaultValue>
+      <description></description>
+      <id>df9dc83b-9d9d-48eb-8aa7-b54e67d393b0</id>
+      <masked>false</masked>
+      <name>title_element</name>
+   </variable>
+   <variable>
+      <defaultValue>[('name') : '', ('description') : '', ('price') : '']</defaultValue>
+      <description></description>
+      <id>02eb18cd-f28d-4c8c-9f0a-c84af65abe64</id>
+      <masked>false</masked>
+      <name>data_element</name>
+   </variable>
+</TestCaseEntity>

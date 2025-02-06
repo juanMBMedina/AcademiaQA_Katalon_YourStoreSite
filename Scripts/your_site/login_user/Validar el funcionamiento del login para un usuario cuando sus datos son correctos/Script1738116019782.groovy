@@ -41,5 +41,3 @@ WebUI.verifyElementVisible(findTestObject('your_site/account_page/my_affiliate_a
 
 WebUI.verifyElementVisible(findTestObject('your_site/account_page/my_newsletter_title'))
 
-WebUI.closeBrowser()
-

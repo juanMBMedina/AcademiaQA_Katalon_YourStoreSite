@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>item_selected_description</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>d80fac72-2883-4736-8ae4-11bfa5c21b06</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//*[text()='${title}']/ancestor::div[contains(@class, 'product-thumb')]//p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

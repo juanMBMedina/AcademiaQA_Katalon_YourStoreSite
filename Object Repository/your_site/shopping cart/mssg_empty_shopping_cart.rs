@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>mssg_empty_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>a22cb770-8963-4731-aff7-83ed06fe3615</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//div[@id='content']//p[contains(text(),'Your shopping cart is empty')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

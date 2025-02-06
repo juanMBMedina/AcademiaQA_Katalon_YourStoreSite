@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>sub_class_elements</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>39f415cf-6a52-4450-b5bf-b4bb1195ba80</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//li[contains(@class,'dropdown')]//a[contains(text(),'${sub_class_element}')]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <key>BASIC</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>title_item</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>0a8cf8f6-b6f3-43f0-a104-545c1546ee7a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//div[@class='table-responsive']//tbody//a[contains(text(),'${title}')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

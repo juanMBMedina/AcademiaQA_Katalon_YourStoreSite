@@ -1,16 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>mssg_wish_item_selected</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>bdc46f90-c9d1-4890-a8e5-1159fa0d1a2f</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//*[contains(text(), '${title}')]/ancestor::div[contains(@class,'alert-success')]//*[contains(text(),'wish list')]&#xd;
+</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

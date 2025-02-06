@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>mssg_change_shopping_cart</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>88a2b051-d118-46b9-a6ea-313e7027c205</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//div[contains(text(),'Success: You have modified your shopping cart')]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
