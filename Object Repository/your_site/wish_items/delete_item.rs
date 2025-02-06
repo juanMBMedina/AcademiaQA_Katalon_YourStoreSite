@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
-   <description>Conints optiosn for user int the landing page.</description>
-   <name>my_account_menu</name>
+   <description></description>
+   <name>delete_item</name>
    <tag></tag>
-   <elementGuidId>b030b419-d9ad-4f46-a265-5d170ac4b1eb</elementGuidId>
+   <elementGuidId>22989a2f-3f70-4091-9143-9608df364819</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[@title='My Account']</value>
+         <value>//div[@class='table-responsive']//tbody//a[contains(text(),'${title}')]/ancestor::tr//a[@data-original-title='Remove']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

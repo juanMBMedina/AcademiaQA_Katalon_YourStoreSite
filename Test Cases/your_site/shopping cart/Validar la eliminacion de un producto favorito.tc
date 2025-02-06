@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ver el producto favorito  ventana del producto fue eliminado</description>
+   <name>Validar la eliminacion de un producto favorito</name>
+   <tag>YS-11</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>185ee4a2-06f9-46eb-9dc0-61d2dfc70cf4</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a3d11489-aadf-459e-838b-068815cdd134</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>40f49bba-0aa1-4c06-9f77-9e985a3364b1</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>26465eae-8893-4595-9995-7535b8853454</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>13553f64-4cc7-4015-97b1-e7d6754055ad</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Laptops &amp; Notebooks'</defaultValue>
+      <description></description>
+      <id>a3d11489-aadf-459e-838b-068815cdd134</id>
+      <masked>false</masked>
+      <name>class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'Show All Laptops &amp; Notebooks'</defaultValue>
+      <description></description>
+      <id>40f49bba-0aa1-4c06-9f77-9e985a3364b1</id>
+      <masked>false</masked>
+      <name>sub_class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'HP LP3065'</defaultValue>
+      <description></description>
+      <id>26465eae-8893-4595-9995-7535b8853454</id>
+      <masked>false</masked>
+      <name>title_element</name>
+   </variable>
+   <variable>
+      <defaultValue>[('name') : '', ('description') : '', ('price') : '']</defaultValue>
+      <description></description>
+      <id>13553f64-4cc7-4015-97b1-e7d6754055ad</id>
+      <masked>false</masked>
+      <name>data_element</name>
+   </variable>
+</TestCaseEntity>

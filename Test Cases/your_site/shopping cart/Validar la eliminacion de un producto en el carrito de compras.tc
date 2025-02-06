@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Ver que el producto fue eliminado del carrito de compras</description>
+   <name>Validar la eliminacion de un producto en el carrito de compras</name>
+   <tag>YS-13</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5380a849-aed0-4945-8b43-09fc27de3a35</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>608db07d-db38-49a2-82be-cb68229642bc</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4f9d3b78-ecbe-48f6-850f-bd5f4334eba9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>9063bba5-98b8-4fab-9763-efab77ee3892</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a61f5aad-f2bc-4d67-82af-16bba3cc9aff</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Laptops &amp; Notebooks'</defaultValue>
+      <description></description>
+      <id>608db07d-db38-49a2-82be-cb68229642bc</id>
+      <masked>false</masked>
+      <name>class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'Show All Laptops &amp; Notebooks'</defaultValue>
+      <description></description>
+      <id>4f9d3b78-ecbe-48f6-850f-bd5f4334eba9</id>
+      <masked>false</masked>
+      <name>sub_class_element</name>
+   </variable>
+   <variable>
+      <defaultValue>'HP LP3065'</defaultValue>
+      <description></description>
+      <id>9063bba5-98b8-4fab-9763-efab77ee3892</id>
+      <masked>false</masked>
+      <name>title_element</name>
+   </variable>
+   <variable>
+      <defaultValue>[('name') : '', ('description') : '', ('price') : '']</defaultValue>
+      <description></description>
+      <id>a61f5aad-f2bc-4d67-82af-16bba3cc9aff</id>
+      <masked>false</masked>
+      <name>data_element</name>
+   </variable>
+</TestCaseEntity>
