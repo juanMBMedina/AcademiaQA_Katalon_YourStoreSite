@@ -16,7 +16,16 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/register_user/Validar el mensaje de error cuando se intenta el registro de un usuario sin Politicas de Privacidad</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>da279156-c6b1-4f5e-a49b-846204fd86ff</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/register_user/register_user_without_politics</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -24,39 +33,39 @@
          <variableId>b72338b8-1a58-4638-a09a-5c32fa9361df</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
          <variableId>9f0f10b4-5a4d-46d0-918b-0b7ea030988a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
          <variableId>16fbd3b5-b3ae-4732-b5a7-3b401f6dd7c3</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>6606ec5f-db32-4242-b06d-7ca8ee603727</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telefone</value>
          <variableId>0b6a7cca-25a6-4175-9b30-fb4501c9e683</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>20fe06b8-5a98-45bd-a1cc-a3e177018127</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>da279156-c6b1-4f5e-a49b-846204fd86ff</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_text</value>
          <variableId>db9f0e13-7ac4-4a6b-8aed-f18b7e600746</variableId>
       </variableLink>
    </testCaseLink>
@@ -65,7 +74,16 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/register_user/Validar el mensaje de error cuando se intenta el registro de un usuario sin un Parametro</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>43920042-66a1-4807-8621-c65a91216ea1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/register_user/register_user_without_param</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -73,39 +91,39 @@
          <variableId>d9f87c68-b092-40d0-a3c1-6af4afa5b406</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
          <variableId>7ad24edc-171d-4440-bde2-0a85df24f52a</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
          <variableId>49ce52b5-8280-4dbc-a372-c1924901d3bf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>d03fc05a-5fa7-4eec-b9ce-a251ba5a2adb</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telefone</value>
          <variableId>1a676d60-8743-4da5-825c-bf0ae17b9f68</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>0f7a42c1-89e9-46d1-88be-e98f75c6a959</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>43920042-66a1-4807-8621-c65a91216ea1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_text</value>
          <variableId>87a91ab9-8ec0-4715-b191-e565632a2da7</variableId>
       </variableLink>
    </testCaseLink>
@@ -114,7 +132,16 @@
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/register_user/Validar el mensaje de error cuando se registra un usuario existente</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/register_user/register exist user</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -122,39 +149,39 @@
          <variableId>381e15f7-36d5-44bf-992e-beee2199d2c9</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>first_name</value>
          <variableId>95ba983b-0135-44ea-ae2f-285cff7024c1</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>last_name</value>
          <variableId>dee0b981-4fc4-4cbd-8f08-d2463e66a572</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>2110e753-9f46-45c3-9d37-f33a166ead6f</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>telefone</value>
          <variableId>d4d3a77f-8fda-4cff-930d-b0d9cb61e312</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>f46b6e63-94b4-48ac-a6c0-707dfda8aa56</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>acf5bf15-d1bb-4da2-b296-a81ef13e73ae</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_text</value>
          <variableId>2402ca12-8185-4564-beeb-6dabbf5d03c9</variableId>
       </variableLink>
    </testCaseLink>

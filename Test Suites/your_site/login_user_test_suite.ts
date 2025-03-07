@@ -5,18 +5,27 @@
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
-   <numberOfRerun>3</numberOfRerun>
+   <numberOfRerun>0</numberOfRerun>
    <pageLoadTimeout>30</pageLoadTimeout>
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
-   <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>c7b6df61-8c8f-4b02-b6da-e7ec65d3cb98</testSuiteGuid>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>d294b221-0184-4793-9ae4-c66598b3f815</testSuiteGuid>
    <testCaseLink>
-      <guid>736d7360-7531-44e1-a312-92d67943050a</guid>
+      <guid>ec464068-c123-401a-b72a-70b37909d891</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/login_user/Validar el funcionamiento del login para un usuario cuando sus datos son correctos</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>4c053fcc-c9ab-45b7-9724-4f43cd5d397c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/login_user/login user with correct values</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -24,24 +33,33 @@
          <variableId>037e7f7f-03a6-4e8d-a92f-fb8d245dd1f4</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4c053fcc-c9ab-45b7-9724-4f43cd5d397c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>20daf891-6706-4c96-9d4c-552f4d675dbf</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>4c053fcc-c9ab-45b7-9724-4f43cd5d397c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>f6c4c0e6-75d5-4d02-bf0c-48fc55aceb42</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0da342da-0ebf-48ef-b834-3d817c663204</guid>
+      <guid>e5b84c8e-b4eb-4819-9009-977b37268ab0</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/login_user/Validar el funcionamiento del login para un usuario cuando sus datos son incorrectos</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>12d6a515-cdd0-4570-adef-e9591b9b8ac1</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/login_user/login_user_with_error_values</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -49,15 +67,15 @@
          <variableId>cdca0984-8bbe-4c44-8f0b-1bfa4f0c4241</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>12d6a515-cdd0-4570-adef-e9591b9b8ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>65701ae7-b1fe-46fe-a8f7-f2ac8c0b1ea8</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>12d6a515-cdd0-4570-adef-e9591b9b8ac1</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>4939d7fc-3c6e-489b-9d19-9c7ee674e44e</variableId>
       </variableLink>
       <variableLink>
@@ -68,11 +86,20 @@
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>0ff495a4-b78e-4017-96f7-65cd889a5136</guid>
+      <guid>3e01545d-52ef-47d8-bda1-3ae65929e967</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/login_user/Validar el funcionamiento del logout para un usuario</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>961d012e-a584-4e2c-aa3a-f025e4322bed</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/login_user/login user with correct values</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -80,24 +107,33 @@
          <variableId>941f952c-61b0-49a7-af4b-91371ca16614</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>961d012e-a584-4e2c-aa3a-f025e4322bed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>6de8c113-5261-4179-97df-ff201e8327df</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>961d012e-a584-4e2c-aa3a-f025e4322bed</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>8766d496-a7e6-4671-8616-f22b971522af</variableId>
       </variableLink>
    </testCaseLink>
    <testCaseLink>
-      <guid>acad6c66-7778-4bc4-aeed-c7469a72664d</guid>
+      <guid>2a5054be-6250-4987-926d-4ff878d9f4b6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/your_site/login_user/Validar el mensaje de error cuando no se ingresa un dato en el formulario de login</testCaseId>
-      <usingDataBindingAtTestSuiteLevel>false</usingDataBindingAtTestSuiteLevel>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>20771922-4032-4d97-93e6-29493df4d969</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/your_site/login_user/login_user_with_error_values</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
       <variableLink>
          <testDataLinkId></testDataLinkId>
          <type>DEFAULT</type>
@@ -105,21 +141,21 @@
          <variableId>5c0e3036-0cce-48b7-8821-9721db93ee71</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>20771922-4032-4d97-93e6-29493df4d969</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
          <variableId>6fdc7649-be61-4b32-85b9-a40db128a324</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>20771922-4032-4d97-93e6-29493df4d969</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password</value>
          <variableId>5eb24e6f-96af-4075-af98-fa6cb0aa0e02</variableId>
       </variableLink>
       <variableLink>
-         <testDataLinkId></testDataLinkId>
-         <type>DEFAULT</type>
-         <value></value>
+         <testDataLinkId>20771922-4032-4d97-93e6-29493df4d969</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expected_text</value>
          <variableId>c071600f-ab1f-415c-a174-2a27ee00ff6e</variableId>
       </variableLink>
    </testCaseLink>
