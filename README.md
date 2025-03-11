@@ -50,7 +50,7 @@ To execute the tests:
 
 The test plan provides detailed information about the testing strategy, scope, and objectives. You can view the plan by downloading the following file:
 
-- [Test Plan](https://github.com/juanMBMedina/AcademiaQA_Katalon_YourStoreSite/blob/main/TestPlan.pdf)
+- [Test Plan](https://github.com/juanMBMedina/AcademiaQA_Katalon_YourStoreSite/blob/main/TestPlan.xlsx)
 
 ## Contributions
 
