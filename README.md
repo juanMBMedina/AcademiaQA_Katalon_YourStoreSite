@@ -16,7 +16,7 @@ The main objective of this project is to demonstrate the implementation of a com
 - `TestCases/` - Contains all the automated test cases.
 - `TestSuites/` - Grouped test suites for different scenarios.
 - `Reports/` - Automatically generated test execution reports.
-- `TestPlan.pdf` - The detailed test plan document.
+- `TestPlan.xsl` - The detailed test plan document.
 - `README.md` - This file.
 
 ## Prerequisites
